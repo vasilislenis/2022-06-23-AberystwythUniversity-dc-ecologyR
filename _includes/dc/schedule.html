@@ -54,7 +54,7 @@ The schedule for the different curricula are listed here:
           {% if site.flavor == "r" %}
           <a href="https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html">Introduction to R</a>
 	<tr> <td>14:30</td>  <td>Coffee break (approximately)</td> </tr>
-      <tr><td>15:00 </td><td><a href="https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html">Starting with Data</a></td></tr>
+      <tr><td>15:00 </td><td><a href="https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html">Continuation: Introduction to R</a></td></tr>
           {% elsif site.flavor == "python" %}
           <a href="https://datacarpentry.org/python-ecology-lesson/">Introduction to Python</a>
           {% else %}
@@ -69,10 +69,15 @@ The schedule for the different curricula are listed here:
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>
+      <tr> <td>10:00</td>
         <td>
           {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/03-dplyr.html">Continuation of R: Data analysis and Manipulation</a>
+	<a href="https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html">Starting with Data</a>
+	<tr> <td>11:15</td>  <td>Coffee break (approximately)</td> </tr>
+	<tr><td>11:40 </td><td><a href="https://datacarpentry.org/R-ecology-lesson/03-dplyr.html">Data analysis and Manipulation</a></td></tr>
+		<tr> <td>12:00</td>  <td>Lunch break (approximately)</td> </tr>
+		<tr><td>13:00 </td><td><a href="https://datacarpentry.org/R-ecology-lesson/03-dplyr.html">Continuation: Data analysis and Manipulation</a></td></tr>
+		<tr> <td>14:15</td>  <td>Coffee break (approximately)</td> </tr>
           {% elsif site.flavor == "python" %}
           <a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Continuation of Python: Data analysis and Visualization</a>
           {% else %}
@@ -80,7 +85,7 @@ The schedule for the different curricula are listed here:
           {% endif %}
         </td>
       </tr>
-      <tr> <td>Afternoon</td><td><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Continuation of R: Data analysis and Visualization</a></td></tr>
+      <tr> <td>14:40</td><td><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Continuation of R: Data analysis and Visualization</a></td></tr>
       <tr>
 	<td>Evening</td>
 	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
